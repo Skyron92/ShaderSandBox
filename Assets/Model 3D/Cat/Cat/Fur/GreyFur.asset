@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9471d67bf7314f7b83ecb66f339b583f, type: 3}
+  m_Name: GreyFur
+  m_EditorClassIdentifier: 
+  Face: {fileID: 2100000, guid: 69458ef8e3f01564e9f9652c218b75c4, type: 2}
+  Ear: {fileID: 2100000, guid: 69458ef8e3f01564e9f9652c218b75c4, type: 2}
+  LeftHand: {fileID: 2100000, guid: 69458ef8e3f01564e9f9652c218b75c4, type: 2}
+  RightHand: {fileID: 2100000, guid: 69458ef8e3f01564e9f9652c218b75c4, type: 2}
+  Tail: {fileID: 2100000, guid: 69458ef8e3f01564e9f9652c218b75c4, type: 2}
+  Sourcil: {fileID: 2100000, guid: 72cb1e05a7d16754a950eb5a13ea7a4f, type: 2}
