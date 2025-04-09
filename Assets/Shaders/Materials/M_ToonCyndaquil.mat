@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ToonShader 3
+  m_Name: M_ToonCyndaquil
   m_Shader: {fileID: -6465566751694194690, guid: 32c680d619b56b74fa7598351610449b,
     type: 3}
   m_Parent: {fileID: 0}

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ToonShader 2
+  m_Name: M_ToonGrass
   m_Shader: {fileID: -6465566751694194690, guid: 32c680d619b56b74fa7598351610449b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: f2615b50f2cfb63438500a90bc587ebc, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -115,9 +115,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimLightBrightness: 1.29
-    - _RimLightIntensity: 0.01
-    - _RimPower: 4.82
+    - _RimLightBrightness: 0
+    - _RimLightIntensity: 0.5
+    - _RimPower: 10
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -125,7 +125,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _ToonRampOffset: 0.65
-    - _ToonRampOffsetPoint: 0
+    - _ToonRampOffsetPoint: 0.819
     - _ToonRampSmoothness: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -133,7 +133,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 0.28266424, g: 0.3490566, b: 0.26508543, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _ToonRampTinting: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
