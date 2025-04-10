@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Attack
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -767,7 +767,8 @@ AnimationClip:
     path: 
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -789,16 +790,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.4166666
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 2
+        time: 1.5666667
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -813,6 +805,7 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2/Saber/SlashEffect
     classID: 1
     script: {fileID: 0}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -828,6 +821,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 285357680
       attribute: 1
@@ -835,6 +830,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 1
@@ -842,6 +839,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1254214919
       attribute: 4
@@ -849,6 +848,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 285357680
       attribute: 4
@@ -856,6 +857,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 4
@@ -863,6 +866,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2092620101
       attribute: 4
@@ -870,6 +875,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2781386002
       attribute: 4
@@ -877,6 +884,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 208027624
       attribute: 4
@@ -884,6 +893,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3506192423
       attribute: 4
@@ -891,6 +902,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3433774056
       attribute: 4
@@ -898,6 +911,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3148731600
       attribute: 4
@@ -905,6 +920,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2384400458
       attribute: 2086281974
@@ -912,6 +929,8 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -934,7 +953,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1034,7 +1054,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1134,7 +1156,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1234,7 +1258,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1334,7 +1360,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1434,7 +1462,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1534,7 +1564,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1589,7 +1621,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1644,7 +1678,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1699,7 +1735,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1754,7 +1792,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1809,7 +1849,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1864,7 +1906,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1919,7 +1963,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1974,7 +2020,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2029,7 +2077,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2120,7 +2170,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2211,7 +2263,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2302,7 +2356,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2324,16 +2380,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.4166666
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 2
+        time: 1.5666667
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -2348,7 +2395,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2/Saber/SlashEffect
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2403,7 +2452,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2458,7 +2509,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2513,7 +2566,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2568,7 +2623,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2623,7 +2680,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2678,7 +2737,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2733,7 +2794,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2788,7 +2851,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2843,7 +2908,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2898,7 +2965,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2953,7 +3022,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3008,7 +3079,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3063,7 +3136,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3118,7 +3193,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3173,7 +3250,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3228,7 +3307,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5/tail_joint6
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3283,7 +3364,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5/tail_joint6
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3338,8 +3421,10 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5/tail_joint6
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3349,7 +3434,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3359,7 +3446,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3369,7 +3458,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3379,7 +3470,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3389,7 +3482,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3399,7 +3494,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3409,7 +3506,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3419,7 +3518,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3429,7 +3530,9 @@ AnimationClip:
     path: Cat/Cat_Mirror/Hand/Hand2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3439,7 +3542,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3449,7 +3554,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3459,7 +3566,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3469,7 +3578,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5/tail_joint6
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3479,7 +3590,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5/tail_joint6
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3489,7 +3602,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4/tail_joint5/tail_joint6
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3499,7 +3614,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3509,7 +3626,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3519,7 +3638,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3529,7 +3650,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3539,7 +3662,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3549,7 +3674,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3/tail_joint4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3559,7 +3686,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3569,7 +3698,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3579,7 +3710,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2/tail_joint3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3589,7 +3722,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3599,7 +3734,9 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -3609,6 +3746,7 @@ AnimationClip:
     path: Tail_rig/tail_joint1/tail_joint2
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
