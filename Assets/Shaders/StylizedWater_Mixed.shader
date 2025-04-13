@@ -34,6 +34,7 @@
 		// to foam being rendered.
 		_FoamMaxDistance("Foam Maximum Distance", Float) = 0.4
 		_FoamMinDistance("Foam Minimum Distance", Float) = 0.04
+    	_FoamStep("Foam Step", Float) = 0.5
     	
     	_Speed("Wave Speed", Range(0,1)) = 0.5
 		_Amount("Wave Amount", Range(0,1)) = 0.5
@@ -115,6 +116,7 @@
 			float4 _DepthGradientShallow;
 			float4 _DepthGradientDeep;
 			float4 _FoamColor;
+			float _FoamStep;
 
 			float _DepthMaxDistance;
 			float _FoamMaxDistance;
@@ -143,7 +145,7 @@
 
 				// Calculate the color of the water based on the depth using our two gradient colors.
 				float waterDepthDifference01 = saturate(depthDifference / _DepthMaxDistance);
-				float4 waterColor = lerp(_DepthGradientShallow, _DepthGradientDeep, waterDepthDifference01);
+				
 				
 				// Retrieve the view-space normal of the surface behind the
 				// pixel we are currently rendering.
@@ -171,6 +173,8 @@
 				// Uncomment the line below to see how it looks without AA.
 				// float surfaceNoise = surfaceNoiseSample > surfaceNoiseCutoff ? 1 : 0;
 				float surfaceNoise = smoothstep(surfaceNoiseCutoff - SMOOTHSTEP_AA, surfaceNoiseCutoff + SMOOTHSTEP_AA, surfaceNoiseSample);
+
+            	float4 waterColor = lerp(_DepthGradientShallow, _DepthGradientDeep, 1-smoothstep(waterDepthDifference01, _FoamStep * surfaceNoiseSample,1));
 
             	/*float2 refractionUV = float2(i.screenPosition.x + surfaceNoise, i.screenPosition.y + surfaceNoise);
             	float4 refractionTexture = tex2D(_CameraOpaqueTexture, refractionUV);*/
